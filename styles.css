@@ -1,0 +1,132 @@
+header {
+    z-index: 99;
+    background-image: url("images/gardenclipart.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+
+header h1 {
+    background: rgba(255,255,255, 0.8);
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 4.5vmax;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+
+}
+
+main {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-family: sans-serif;
+    position: absolute;;
+    left: 0; top: 100px; bottom: 25px;
+    width: 70%;
+    background-color: rgba(222,184,135,0.5);
+    overflow-y: scroll;
+
+}
+
+main p, ul {
+    font-size: 1em;
+    text-align: justify;
+    line-height: 125%;
+
+}
+
+main h1 {
+    font-size: 2em;
+    text-align: center;
+    line-height: 125%;
+
+}
+
+main h2, h3 {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 125%;
+
+}
+
+main img {
+    display: inline-block;
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    vertical-align: middle;
+
+}
+
+strong {
+    font-weight: bold;
+
+}
+
+.underline {
+    text-decoration: underline;
+
+}
+
+.p-inline {
+    display: inline;
+
+}
+
+#sidebar {
+    position: absolute;
+    top: 100px; right: 0; bottom: 25px;
+    width: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(139,69,19,0.5);
+    overflow-y: scroll;
+
+}
+
+#sidebar img {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: white solid 3px;
+
+}
+
+#sidebar h2 {
+    font-size: 2em;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+footer {
+    position: fixed;
+    right: 0; left: 0; bottom: 0;
+    height: 25px;
+    background-color: rgba(100,55,20,0.9);
+
+}
+
+footer p {
+    height: 100%;
+    font-size: .75em;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+
+}
